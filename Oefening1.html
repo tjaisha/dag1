@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Class selector */
+        .header3 {
+            color: green;
+        }
+
+        /* Id selector */
+        #plaatje-1 {
+            border: 4px dashed blueviolet;
+        }
+    </style>
+
+<script>
+
+    var a1; // Declaration
+    a1 = 6; // Assignment
+    var a2; // Declaration
+    a2 = 12; // Assignment
+    var a3;
+    a3 = 2.5;
+    var a4;
+    a4 = 1.5;
+
+    var b = a1 + 7;
+    var c = a2 / 2;
+    var d = a3 - a4;
+    var e = a6 * 2;
+
+    console.log(b);
+
+    // Alert (Popup)
+    // alert('De waarde van a = ' + a);
+
+    // Console
+    console.log('De waarde van b = '+ b)
+
+    // Subtraction -> -
+    // Devide -> /
+    // Multiply -> *
+    // Increment -> a++ (Verhoog de waarde met 1)
+    //              a = a +1;
+
+</script>
+
+</head>
+<body>
+    <!-- Headers-->
+    <h1>Oefening 1</h1>
+    <h2>Header 2</h2>
+    <h3 class="header3">Header 3</h3>
+
+    <!-- Teksten-->
+    <p>Paragraaf 1</p>
+    <p>Paragraaf 2</p>
+
+    <span>Span 1</span>
+    <span>Span 2</span>
+
+    <br>
+    <img id="plaatje-1" src="mijnafbeelding.jpg" width="800">
+
+    <!--Deel 2 oefening-->
+
+    <!--Link-->
+    <br>
+    <a href="https://workingtalent.udemy.com/organization/home/">Ga naar website</a>
+
+    <!--Lists-->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+
+    <!--Tables-->
+    <table style="border: 1px solid green;">
+        <tr style="background-color: red;">
+            <td>Groep 1</td>
+            <td>Groep 2</td>
+        </tr>
+        <tr>
+            <td>Frank</td>
+            <td>Patrick</td>
+        </tr>
+        <tr>
+            <td>Tjaisha</td>
+            <td>Vedra</td>
+        </tr>
+    </table>
+
+    <button type="button" onclick="additionFunction()">
+        Click me 
+    </button>
+
+        <script>
+            function additionFunction() {
+                alert(b);
+            }
+        </script>
+
+</body>
+</html>
